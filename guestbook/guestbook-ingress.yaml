@@ -22,3 +22,4 @@ spec:
   tls:
   - hosts:
     - guestbook.k3s.inquietu.de
+    secretName: guestbook-tls
