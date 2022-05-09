@@ -6,4 +6,4 @@ releases:
 - name: mongo-test
   chart: bitnami/mongodb
   version: 5.0.8
-  installed: true
+  installed: false
