@@ -4,5 +4,5 @@ repositories:
 
 releases:
 - name: mongo-test
-  chart: bitnami/mongod
+  chart: bitnami/mongodb
   version: 5.0.8
