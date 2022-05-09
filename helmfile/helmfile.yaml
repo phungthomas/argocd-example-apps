@@ -1,0 +1,12 @@
+repositories:
+- name: loft
+  url: https://charts.loft.sh
+
+releases:
+- name: vcluster-1
+  namespace: gitlab-managed-apps
+  chart: loft/vcluster
+  version: 0.7.1
+  installed: false
+  values:
+    - values.yaml.gotmpl
