@@ -1,0 +1,9 @@
+repositories:
+- name: loft
+  url: https://charts.bitnami.com/bitnami
+
+releases:
+- name: mongo-test
+  chart: bitnami/mongodb
+  version: 5.0.8
+  installed: false
